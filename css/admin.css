@@ -1,0 +1,15 @@
+.admin h2 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: cursive;
+}
+
+.admin h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: cursive;
+}
+
+body {
+	background-color: #C6E2FF;
+}
