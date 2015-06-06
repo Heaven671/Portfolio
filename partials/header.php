@@ -31,9 +31,9 @@
       <li class="normal">
         <a class="nav" href="#">Mes projets</a>
       </li>
-      <li class="normal">
+<!--      <li class="normal">
         <a class="nav" href="<?= WEBROOT; ?>cv/CV_2014.pdf">CV</a>
-      </li>
+      </li> -->
       <li class="normal">
         <a class="nav" href="<?= WEBROOT; ?>pages/contact.php">Contact</a>
       </li>
