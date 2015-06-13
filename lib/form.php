@@ -7,7 +7,8 @@ return "<input type='text' id='$id' name='$id' value='$value'>";
 
 function textarea($id){
 	$value = isset($_POST[$id]) ? $_POST[$id] : '';
-return "<textarea type='text' class='form-control' id='$id' name='$id'>$value</textarea>";
+// return "<textarea type='text' class='form-control' id='$id' name='$id'>$value</textarea>";
+return "<textarea name='content' id='$id' name='$id' style='width:100%'>$value</textarea>";
 }
 
 function select($id, $options = array()){

@@ -78,13 +78,14 @@ include '../partials/admin_header.php';
 
 <?php ob_start(); ?>
 
+<script src="<?= WEBROOT; ?>js/jquery.js"></script>
 <script src="<?= WEBROOT; ?>js/tinymce/tinymce.min.js"></script>
 
 <script>
 
 tinyMCE.init({
         // General options
-        mode : "textareas",
+        mode : "textarea",
 
 });
 
