@@ -57,12 +57,12 @@ include '../partials/admin_header.php';
 		<?= input('slug'); ?>
 	</div>
 
-		<div class="form-group">
+	<div class="form-group">
 		<label for="content">Contenu de la réalisation</label>
 		<?= textarea('content'); ?>
 	</div>
 
-		<div class="form-group">
+	<div class="form-group">
 		<label for="category_id">Catégorie</label>
 		<?= select('category_id', $categories_list); ?>
 	</div>
@@ -81,10 +81,14 @@ include '../partials/admin_header.php';
 <script src="<?= WEBROOT; ?>js/tinymce/tinymce.min.js"></script>
 
 <script>
+
 tinyMCE.init({
-    mode: "textareas"
+        // General options
+        mode : "textareas",
+
 });
-</script>
+
+</>
 
 <?php $script = ob_get_clean(); ?>
 
