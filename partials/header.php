@@ -15,8 +15,8 @@
   <nav>
   <select class="select" onchange="location = this.options[this.selectIndex].value">
     <option value="index.php">Accueil</option>
-    <option value="css/style.css">Mes réalisations</option>
-    <option value="css/style.css">Mes projets</option>
+    <option value="<?= WEBROOT; ?>pages/realisations.php">Mes réalisations</option>
+    <option value="<?= WEBROOT; ?>pages/projets.php">Mes projets</option>
     <option value="css/style.css">CV</option>
     <option value="<?= WEBROOT; ?>pages/contact.php">Contact</option>
     <option value="<?= WEBROOT; ?>admin/index.php">Admin</option>
@@ -26,10 +26,10 @@
         <a class="nav" href="<?= WEBROOT; ?>index.php">Accueil</a>
       </li>
       <li class="normal">
-        <a class="nav" href="#">Mes réalisations</a>
+        <a class="nav" href="<?= WEBROOT; ?>pages/realisations.php">Mes réalisations</a>
       </li>
       <li class="normal">
-        <a class="nav" href="#">Mes projets</a>
+        <a class="nav" href="<?= WEBROOT; ?>pages/projets.php">Mes projets</a>
       </li>
 <!--      <li class="normal">
         <a class="nav" href="<?= WEBROOT; ?>cv/CV_2014.pdf">CV</a>
