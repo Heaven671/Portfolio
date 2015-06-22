@@ -15,11 +15,11 @@
   <nav>
   <select class="select" onchange="location = this.options[this.selectIndex].value">
     <option value="index.php">Accueil</option>
-    <option value="<?= WEBROOT; ?>pages/realisations.php">Mes réalisations</option>
-    <option value="<?= WEBROOT; ?>pages/projets.php">Mes projets</option>
-    <option value="css/style.css">CV</option>
-    <option value="<?= WEBROOT; ?>pages/contact.php">Contact</option>
-    <option value="<?= WEBROOT; ?>admin/index.php">Admin</option>
+    <option value="<?= WEBROOT; ?>pages/realisations.php" href="<?= WEBROOT; ?>pages/realisations.php">Mes réalisations</option>
+    <option value="<?= WEBROOT; ?>pages/projets.php" href="<?= WEBROOT; ?>pages/projets.php">Mes projets</option>
+    <option value="<?= WEBROOT; ?>pages/shoutbox.php" href="<?= WEBROOT; ?>pages/shoutbox.php">Shoutbox</option>
+    <option value="<?= WEBROOT; ?>pages/contact.php" href="<?= WEBROOT; ?>pages/contact.php">Contact</option>
+    <option value="<?= WEBROOT; ?>admin/index.php" href="<?= WEBROOT; ?>admin/index.php">Admin</option>
   </select>
     <ul>
       <li class="normal">
@@ -31,9 +31,9 @@
       <li class="normal">
         <a class="nav" href="<?= WEBROOT; ?>pages/projets.php">Mes projets</a>
       </li>
-<!--      <li class="normal">
-        <a class="nav" href="<?= WEBROOT; ?>cv/CV_2014.pdf">CV</a>
-      </li> -->
+      <li class="normal">
+        <a class="nav" href="<?= WEBROOT; ?>pages/shoutbox.php">Shoutbox</a>
+      </li>
       <li class="normal">
         <a class="nav" href="<?= WEBROOT; ?>pages/contact.php">Contact</a>
       </li>

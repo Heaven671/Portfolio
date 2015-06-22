@@ -1,20 +1,18 @@
 <?php
-$auth = 0;
+$auth = 1;
 include '../lib/includes.php';
 include '../partials/header.php';
 ?>
 <link href="<?= WEBROOT; ?>css/contact.css" type='text/css' rel="stylesheet">
 
-<h1>Me contacter</h1>
+<h1>Shoutbox</h1>
 
 <div id="contactbox">
 	<div class="contactheader">
-	    <h4>Par écrit / vocal</h4>
+	    <h4>Me parler en direct</h4>
 	 </div>
-		
-	<h2>Mon email : <u>contact@schawnndev.fr</u></h2>
 
-	<h2>Pour me contacter en vocal, demandez moi mon skype par mail.</h2>
+	<h2>En développement.</h2>
 
 </div>
 
