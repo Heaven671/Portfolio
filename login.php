@@ -2,7 +2,8 @@
 $auth = 0;
 include 'lib/includes.php';
 
-  flash(); 
+flash(); 
+
 //TAITEMENT
 
 if(isset($_POST['username']) && isset($_POST['password'])){
@@ -40,18 +41,5 @@ include 'partials/header.php';
   </form>
 	</div>
 </div>
-
-<!--
-<form action="#" method="post">
-	<div class="form-group">
-		<label for="username">Nom d'utilisateur</label>
-		input('username'); ?>
-	</div>
-		<div class="form-group">
-		<label for="password">Mot de passe</label>
-		<input type="password" class="form-control" id="password" name="password">
-	</div>
-	<button type="submit" class ="btn btn-success">Se connecter</button>
-</form> -->
 
 <?php include 'partials/footer.php'; ?>

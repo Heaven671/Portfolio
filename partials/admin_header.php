@@ -28,7 +28,7 @@
         </ul>
         <ul class="nav navbar-right">
           <li>
-            <a href="<?= WEBROOT; ?>index.php">Retour au site</a>
+            <a href="<?= WEBROOT; ?>index.php" style="color: #C6E2FF">Retour au site</a>
           </li>
         </ul>
     </div>
