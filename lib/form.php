@@ -26,5 +26,3 @@ function select($id, $options = array()){
 
 	return $return;
 }
-
-?>

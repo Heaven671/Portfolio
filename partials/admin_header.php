@@ -2,13 +2,12 @@
 <html>
 <head>
 	<title>Administration | Schawnn</title>
-	<meta charset="utf-8" />
+	<meta charset="utf-8"/>
 	<link href="<?= WEBROOT; ?>css/bootstrap.min.css" type='text/css' rel="stylesheet">
   <link href="<?= WEBROOT; ?>css/bootstrap.css" type='text/css' rel="stylesheet">
-    <link href="<?= WEBROOT; ?>css/options.css" type='text/css' rel="stylesheet">
-        <link href="<?= WEBROOT; ?>css/admin.css" type='text/css' rel="stylesheet">
+  <link href="<?= WEBROOT; ?>css/options.css" type='text/css' rel="stylesheet">
+  <link href="<?= WEBROOT; ?>css/admin.css" type='text/css' rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
 </head>
 
 <body>
@@ -20,7 +19,7 @@
       </div>
         <ul class="nav navbar-nav">
           <li>
-              <a href="category.php">Catégories</a>              
+              <a href="category.php">Catégories</a>
           </li>
           <li>
             <a href="work.php">Réalisations</a>

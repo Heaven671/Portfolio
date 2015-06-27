@@ -8,4 +8,3 @@ try {
 	echo $e->getMessage();
 	die();
 }
-?>
