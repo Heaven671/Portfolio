@@ -17,7 +17,7 @@
     <option value="index.php">Accueil</option>
     <option value="<?= WEBROOT; ?>pages/realisations.php" href="<?= WEBROOT; ?>pages/realisations.php">Mes réalisations</option>
     <option value="<?= WEBROOT; ?>pages/projets.php" href="<?= WEBROOT; ?>pages/projets.php">Mes projets</option>
-    <option value="<?= WEBROOT; ?>pages/shoutbox.php" href="<?= WEBROOT; ?>pages/shoutbox.php">Shoutbox</option>
+    <option value="<?= WEBROOT; ?>pages/shoutbox.php" href="<?= WEBROOT; ?>pages/shootbox.php">Shootbox</option>
     <option value="<?= WEBROOT; ?>pages/contact.php" href="<?= WEBROOT; ?>pages/contact.php">Contact</option>
     <option value="<?= WEBROOT; ?>admin/index.php" href="<?= WEBROOT; ?>admin/index.php">Admin</option>
   </select>
@@ -32,7 +32,7 @@
         <a class="nav" href="<?= WEBROOT; ?>pages/projets.php">Mes projets</a>
       </li>
       <li class="normal">
-        <a class="nav" href="<?= WEBROOT; ?>pages/shoutbox.php">Shoutbox</a>
+        <a class="nav" href="<?= WEBROOT; ?>pages/shootbox.php">Shootbox</a>
       </li>
       <li class="normal">
         <a class="nav" href="<?= WEBROOT; ?>pages/contact.php">Contact</a>
