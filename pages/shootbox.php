@@ -5,7 +5,7 @@ include '../partials/header.php';
 ?>
 <link href="<?= WEBROOT; ?>css/contact.css" type='text/css' rel="stylesheet">
 
-<h1>Shoutbox</h1>
+<h1>Shootbox</h1>
 
 <div id="contactbox">
 	<div class="contactheader">
