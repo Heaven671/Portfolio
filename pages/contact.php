@@ -69,19 +69,6 @@ if(isset($_POST['submit'])) {
 
 <link href="<?= WEBROOT; ?>css/contact.css" type='text/css' rel="stylesheet">
 
-<h1>Me contacter</h1>
-
-<div id="contactbox">
-	<div class="contactheader">
-	    <h4>Par écrit / vocal</h4>
-	 </div>
-
-	<h2>Mon email : <u>contact@schawnndev.fr</u></h2>
-
-	<h2>Pour me contacter en vocal, demandez moi mon skype par mail.</h2>
-
-</div>
-
 <? if($ok_mail=="true"){ ?>
 
 	<table width='100%' border='0' cellspacing='1' cellpadding='1'>
