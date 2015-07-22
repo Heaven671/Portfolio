@@ -5,7 +5,6 @@
 	<meta charset="utf-8" />
   <link href="<?= WEBROOT; ?>css/options.css" type='text/css' rel="stylesheet">
   <link href="<?= WEBROOT; ?>css/site.css" type='text/css' rel="stylesheet">
-  <link href="<?= WEBROOT; ?>css/login.css" type='text/css' rel="stylesheet">
   <script src="../js/bootstrap.js" type="text/javascript"></script>
   <script src="http://code.jquery.com/jquery-2.1.3.min.js" type="text/javascript"></script>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>

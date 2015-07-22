@@ -1,8 +1,8 @@
-<?php 
+<?php
 $auth = 0;
 include 'lib/includes.php';
 
-flash(); 
+flash();
 
 //TAITEMENT
 
@@ -20,10 +20,12 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 	} else if ($_POST['username'] != null || $_POST['password'] != null){
 		setFlash('Pseudo ou nom d\'utilisateur incorrect', 'danger');
 	}
-} 
+}
 
 include 'partials/header.php';
 ?>
+
+<link href="<?= WEBROOT; ?>css/login.css" type='text/css' rel="stylesheet">
 
 <div id="wrapper">
 	<div id="box">

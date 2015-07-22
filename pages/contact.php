@@ -2,6 +2,11 @@
 $auth = 0;
 include '../lib/includes.php';
 include '../partials/header.php';
+?>
+
+<link href="<?= WEBROOT; ?>css/mail.css" type='text/css' rel="stylesheet">
+
+<?php
 
 $color_font_warn="#FF0000";
 $color_form_warn="#FFCC66";
@@ -66,8 +71,6 @@ if(isset($_POST['submit'])) {
 }
 
 ?>
-
-<link href="<?= WEBROOT; ?>css/contact.css" type='text/css' rel="stylesheet">
 
 <? if($ok_mail=="true"){ ?>
 
